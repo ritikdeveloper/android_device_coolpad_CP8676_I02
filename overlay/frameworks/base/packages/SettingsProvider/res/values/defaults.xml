@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2016, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <!-- Set the automatic brightness mode on by default -->
+    <bool name="def_screen_brightness_automatic_mode">false</bool>
+
+    <fraction name="def_window_animation_scale">50%</fraction>
+
+    <fraction name="def_window_transition_scale">50%</fraction>
+
+    <bool name="def_install_non_market_apps">true</bool>
+
+    <!-- Ringtone Volume,its value is from 0 to 7,default value is 5 -->
+    <integer name="def_ringtone_volume" translatable="false">7</integer>
+
+    <bool name="def_accelerometer_rotation">false</bool>
+
+    <!-- Default screen brightness, from 0 to 255.  102 is 40%. -->
+    <integer name="def_screen_brightness">60</integer>
+
+    <!-- Music Volume,its value is from 0 to 15,default value is 11 -->
+    <integer name="def_music_volume" translatable="false">15</integer>
+
+    <!-- Voice Call Volume,its value is from 0 to 5,default value is 4 -->
+    <integer name="def_voice_call_volume" translatable="false">5</integer>
+
+    <!-- Alarm Volume,its value is from 0 to 7,default value is 6 -->
+    <integer name="def_alarm_volume" translatable="false">7</integer>
+    <!-- Notification Volume,its value is from 0 to 7,default value is 5 -->
+    <integer name="def_notification_volume" translatable="false">7</integer>
+</resources>
