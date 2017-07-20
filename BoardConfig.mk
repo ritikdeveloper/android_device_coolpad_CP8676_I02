@@ -1,5 +1,5 @@
 # Device path
-LOCAL_PATH := device/coolpad/CP8676_I02
+LOCAL_PATH := device/coolpad/CP8298_I00
 
 # MTK audio
 BOARD_USES_MTK_AUDIO := true
@@ -76,7 +76,7 @@ BOARD_MKBOOTIMG_ARGS := --board $(BOARD_NAME) --base $(BOARD_KERNEL_BASE) --page
 TARGET_IS_64_BIT := true
 MTK_K64_SUPPORT := yes
 
-TARGET_PREBUILT_KERNEL := device/coolpad/CP8676_I02/rootdir/kernel
+TARGET_PREBUILT_KERNEL := device/coolpad/CP8298_I00/rootdir/kernel
 BOARD_CUSTOM_BOOTIMG := true
 TARGET_IS_64_BIT := true
 TARGET_KMODULES := true
@@ -84,7 +84,7 @@ MTK_K64_SUPPORT := yes
 MTK_MEDIA_PROFILES := true
 BOARD_USES_MTK_MEDIA_PROFILES := true
 # Platform
-TARGET_BOOTLOADER_BOARD_NAME := mt6753
+TARGET_BOOTLOADER_BOARD_NAME := mt6735
 
 # Legacy blobs
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
@@ -122,7 +122,7 @@ BOARD_CHARGER_SHOW_PERCENTAGE := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_HAS_LARGE_FILESYSTEM := true
-TARGET_RECOVERY_FSTAB := device/coolpad/CP8676_I02/rootdir/fstab.mt6735
+TARGET_RECOVERY_FSTAB := device/coolpad/CP8298_I00/rootdir/fstab.mt6735
 TW_THEME := portrait_hdpi
 TW_INCLUDE_CRYPTO := true
 
@@ -134,7 +134,7 @@ BOARD_GLOBAL_CFLAGS += -DCOMPAT_SENSORS_M
 
 # RIL
 BOARD_PROVIDES_RILD := true
-BOARD_RIL_CLASS := ../../../device/coolpad/CP8676_I02/mtk/ril
+BOARD_RIL_CLASS := ../../../device/coolpad/CP8298_I00/mtk/ril
 BOARD_CONNECTIVITY_MODULE := conn_soc
 
 # Wifi
@@ -149,8 +149,8 @@ WIFI_DRIVER_FW_PATH_AP := AP
 WIFI_DRIVER_FW_PATH_P2P := P2P
 
 # Device vendor board
--include vendor/coolpad/CP8676_I02/BoardConfigVendor.mk
--include vendor/coolpad/CP8676_I02/CP8676_I02-vendor-blobs.mk
+-include vendor/coolpad/CP8298_I00/BoardConfigVendor.mk
+-include vendor/coolpad/CP8298_I00/CP8298_I00-vendor-blobs.mk
 
 # Kernel
 TARGET_KMODULES := true
