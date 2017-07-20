@@ -18,18 +18,18 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, $(LOCAL_PATH)/device_CP8676_I02.mk)
+$(call inherit-product, $(LOCAL_PATH)/device_CP8298_I00.mk)
 
 # Device display
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Device identifier
-PRODUCT_NAME := lineage_CP8676_I02
-PRODUCT_DEVICE := CP8676_I02
+PRODUCT_NAME := lineage_CP8298_I00
+PRODUCT_DEVICE := CP8298_I00
 PRODUCT_MANUFACTURER := Coolpad
-PRODUCT_MODEL := Coolpad Note 3
+PRODUCT_MODEL := Coolpad Note 3 lite
 PRODUCT_BRAND := coolpad
-PRODUCT_RELEASE_NAME := CP8676_I02
+PRODUCT_RELEASE_NAME := CP8298_I00
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
